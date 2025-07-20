@@ -1,38 +1,48 @@
-# Flutter/Dart/Pub related
+# Flutter / Dart / Pub related
 .dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
 .packages
 .pub-cache/
 build/
-.idea/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Android
 android/.gradle/
 android/app/debug/
 android/app/profile/
 android/app/release/
+
+# iOS
 ios/Pods/
 ios/.symlinks/
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
 ios/ServiceDefinitions.json
+
+# macOS
 macos/Flutter/Flutter.podspec
 macos/Pods/
+
+# Windows / Linux / Web
 linux/flutter/
 windows/flutter/
 web/.dart_tool/
 web/build/
+
+# Coverage
 coverage/
 
-# VS Code
+# IDEs
 .vscode/
-
-# IntelliJ
+.idea/
 *.iml
 *.ipr
 *.iws
 
-
-# Others
-*.log
+# System Files
 *.lock
-*.DS_Store
+*.log
+.DS_Store
+Thumbs.db
